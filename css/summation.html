@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summation</title>
+<link rel="stylesheet" href="summation.css">
+</head>
+<body>
+    
+    <div id="div1">
+
+    </div>
+    <span>+</span>
+    <div id="div2">
+
+    </div>
+    <span>=</span>
+    
+    <input type="text" id="myinput"><button id="mybutton" placeholder="write the result here">Check result</button>
+    
+</div>
+    <div id="result">
+    </div>
+    
+    <script>
+        var num1=document.getElementById("div1"),
+            num2=document.getElementById("div2"),
+            input=document.getElementById("myinput"),
+            btn=document.getElementById("mybutton"),
+            result=document.getElementById("result")
+
+            var x=Math.round(Math.random()*10)
+
+            var y=Math.round(Math.random()*10)
+
+            num1.innerHTML=x
+            num2.innerHTML=y
+
+            btn.onclick=function(){
+                var ans=input.value;
+
+                if(ans==x+y){
+                    result.innerHTML="correct";
+                }
+                else{
+                    result.innerHTML="wrong";
+                }
+            }
+    </script>
+</body>
+</html>

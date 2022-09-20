@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(29, 29, 29);
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: aqua;
+    font-size: 100px;
+    text-align: center;
+}
+
+a{
+    color: aqua;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 80px;
+    border: 9px solid aqua;
+    border-radius: 19px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 210px;
+    margin: auto;
+    text-align: center;
+}
+
+a:hover{
+    color:  rgb(29, 29, 29);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 80px;
+    border: 9px solid aqua;
+    border-radius: 19px;
+    padding: 20px;
+    background-color: aqua;
+    transition: all 1s;
+    width: 210px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 1px 1px 30px aqua;
+}

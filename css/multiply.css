@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(29, 29, 29);
+}
+
+div{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(0, 107, 107);
+    text-align: center;
+    align-items: center;
+    padding: 2px;
+    margin: 20px;
+    line-height: 180px;
+    font-size: 70px;
+}
+
+#div1 ,#div2{
+display: inline-block;
+}
+
+span{
+    font-size: xx-large;
+    color: aqua;
+    text-align: center;
+}
+
+button{
+    background-color: transparent;
+    border: aqua 4px solid;
+    color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: xx-large;
+    margin: 20px;
+}
+input{
+    font-size: xx-large;
+    background-color: transparent;
+    border: 10px aqua solid;
+    outline: none;
+    color: aqua;
+
+}
+
+::placeholder{
+    font-family: 'Ubuntu', sans-serif;
+    color: aqua;
+}
+
+input:focus{
+    font-size: xx-large;
+    background-color: transparent;
+    border: 10px aqua solid;
+    outline: none;
+    color: aqua;
+    box-shadow:  1px 1px 20px rgb(0, 255, 157);;
+    transition: all 1s;
+    
+}
